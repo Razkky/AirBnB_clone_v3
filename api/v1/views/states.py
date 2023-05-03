@@ -46,7 +46,7 @@ def post():
     """Create and return a new state with status code 201"""
     state = request.get_json()
     if not state:
-        abort(404, "Not a JSON")
+        abort(400, "Not a JSON")
     if 'name' not in state:
         abort(400, "Missing name")
     new_state = State(**state)

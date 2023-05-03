@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Create a web application using Flask
 """
 from api.v1.views import app_views

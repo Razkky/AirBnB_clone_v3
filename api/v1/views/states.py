@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Defines an api that gets all State object"""
 
 from flask import jsonify, make_response, request, abort

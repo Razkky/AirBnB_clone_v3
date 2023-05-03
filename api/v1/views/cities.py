@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Defines all api for cities"""
 from api.v1.views import app_views
 from flask import jsonify, make_response, abort, request

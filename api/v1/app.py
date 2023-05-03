@@ -22,7 +22,7 @@ def not_found(error):
     """Return json object for 404 not found errorr"""
     return make_response(jsonify({
         "error": "Not found"
-    }))
+    }), 404)
 
 
 if __name__ == "__main__":
